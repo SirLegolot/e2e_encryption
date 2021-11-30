@@ -115,7 +115,7 @@ def setup_master_outstation_keys():
     server_key.generate_private_key()
     server_key.generate_public_key()
     server_key.write_private_key_to_file("server_private_key.pem")
-    server_key.write_public_key_to_file("server_public_key.pem")\
+    server_key.write_public_key_to_file("server_public_key.pem")
 
     client_key.generate_private_key()
     client_key.generate_public_key()
